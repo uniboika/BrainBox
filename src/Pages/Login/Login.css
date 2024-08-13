@@ -1,0 +1,153 @@
+.login {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(155deg, #043e4dc5 25%, #91033279 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* max-width: 70%; */
+}
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+}
+.login-form {
+  width: 40%;
+  background-color: transparent;
+  filter: blur();
+  backdrop-filter: blur(50px);
+}
+.login-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-title img {
+  width: 100px;
+  height: auto;
+}
+.login-form label {
+  font-weight: 600;
+}
+.login-description {
+  margin-right: 30px;
+}
+.login-description h2 {
+  font-size: 3.3em;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+.login-description p {
+  font-size: 1.6em;
+  font-weight: 600;
+  letter-spacing: 1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.submit {
+  background-color: var(--primary-color);
+  border: 0;
+  outline: 0;
+}
+.signup {
+  display: flex;
+  justify-content: center;
+}
+.signup button {
+  background-color: transparent;
+  font-size: 13px;
+  padding: 4px;
+  border: 1px solid rgb(73, 73, 73);
+  border-radius: 5px;
+  margin-left: 5px;
+  /* color: var(--text-color); */
+}
+/* .signup-modal {
+  background-color: transparent !important;
+  filter: blur();
+  backdrop-filter: blur(50px);
+} */
+.signup-modal h2 {
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 0px;
+}
+.singup-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.singup-title img {
+  width: 80px;
+  height: auto;
+}
+/* Hide the default checkbox */
+.custom-checkbox input[type="checkbox"] {
+  opacity: 0;
+  position: absolute;
+}
+
+/* Create a custom checkbox */
+.custom-checkbox {
+  display: inline-block;
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+.custom-checkbox input[type="checkbox"] + label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  /* border: 2px solid black; */
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + label::before {
+  background-color: black;
+  border-color: black;
+  
+}
+
+.custom-checkbox input[type="checkbox"]:checked + label::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  width: 6px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 928px) {
+  .login-page {
+    flex-direction: column;
+  }
+  .login-form {
+    width: 100%;
+  }
+  .login-description p {
+    font-size: 1.3em;
+  }
+  .login-description h2 {
+    font-size: 2.9em;
+  }
+}
+@media (max-width: 568px) {
+  .login-description p {
+    display: none;
+  }
+  .login-description h2 {
+    justify-content: center;
+    font-size: 2.5em;
+  }
+}
