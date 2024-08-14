@@ -243,17 +243,17 @@ export default function Login() {
               <FormGroup>
                 <Input
                   onChange={handleChange}
-                  id="signupMail"
-                  name="signupMail"
-                  value={form.signupMail || ""}
+                  id="signupDob"
+                  name="signupDob"
+                  value={form.signupDob || ""}
                   type="date"
                   className="form-control"
-                  invalid={!!errors.signupMail}
+                  invalid={!!errors.signupDob}
                   placeholder="Email address or phone number"
                 />
-                {errors.signupMail && (
+                {errors.signupDob && (
                   <FormFeedback>
-                    <span style={{ color: "red" }}>{errors.signupMail}</span>
+                    <span style={{ color: "red" }}>{errors.signupDob}</span>
                   </FormFeedback>
                 )}
               </FormGroup>

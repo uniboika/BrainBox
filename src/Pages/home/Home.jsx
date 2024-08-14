@@ -3,20 +3,20 @@ import StoryRow from "./StoryRow";
 
 import logo2 from "../../assets/logo2.jpg";
 import logo from "../../assets/logo.png";
-import dp from "../../assets/dp.jpg"
-import me from "../../assets/babale.jpeg"
-import bigbro from "../../assets/bigbro.jpg"
-import yusuf from "../../assets/yusuf.jpg"
-import mac from "../../assets/mac.jpg"
-import mate from "../../assets/class mate.jpg"
-import chiken from "../../assets/chicken.jpg"
-import nagudu from "../../assets/nagudu.JPG"
-import auwal from "../../assets/yaauwal.JPG"
-import fam from "../../assets/fam.jpg"
-import latest from "../../assets/latest.jpg"
-import dadi from "../../assets/dadi.JPG"
-import bihub from "../../assets/bihub.JPG"
-import abbaboss from "../../assets/abbaboss.JPG"
+import dp from "../../assets/dp.jpg";
+import me from "../../assets/babale.jpeg";
+import bigbro from "../../assets/bigbro.jpg";
+import yusuf from "../../assets/yusuf.jpg";
+import mac from "../../assets/mac.jpg";
+import mate from "../../assets/class mate.jpg";
+import chiken from "../../assets/chicken.jpg";
+import nagudu from "../../assets/nagudu.JPG";
+import auwal from "../../assets/yaauwal.JPG";
+import fam from "../../assets/fam.jpg";
+import latest from "../../assets/latest.jpg";
+import dadi from "../../assets/dadi.JPG";
+import bihub from "../../assets/bihub.JPG";
+import abbaboss from "../../assets/abbaboss.JPG";
 import ForYouPage from "./ForYouPage";
 import FollowingPage from "./FollowingPage";
 import { Nav, NavItem, NavLink } from "reactstrap";
@@ -74,7 +74,6 @@ export default function Home() {
       profileImage: mac,
       storyImage: chiken,
     },
-    
   ];
 
   return (
@@ -113,122 +112,7 @@ export default function Home() {
 
       <StoryRow stories={stories} />
       <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
-      <br />
-      <div>Home</div>
+
       <br />
       <div className="mt-4">
         {activeTab === "foryou" && <ForYouPage />}
