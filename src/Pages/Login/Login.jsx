@@ -16,7 +16,7 @@ import {
   Button,
 } from "reactstrap";
 import { FaEnvelope, FaKey } from "react-icons/fa";
-import logo from "../../assest/logo.png";
+import logo from "../../assets/logo.png";
 import "./Login.css";
 // import useIsPhoneSize from "../../Utills/useIsPhoneSize";
 
@@ -240,6 +240,23 @@ export default function Login() {
                   </FormFeedback>
                 )}
               </FormGroup>
+              <FormGroup>
+                <Input
+                  onChange={handleChange}
+                  id="signupMail"
+                  name="signupMail"
+                  value={form.signupMail || ""}
+                  type="date"
+                  className="form-control"
+                  invalid={!!errors.signupMail}
+                  placeholder="Email address or phone number"
+                />
+                {errors.signupMail && (
+                  <FormFeedback>
+                    <span style={{ color: "red" }}>{errors.signupMail}</span>
+                  </FormFeedback>
+                )}
+              </FormGroup>
 
               <FormGroup>
                 <Input
@@ -288,7 +305,7 @@ export default function Login() {
               </Button>
             </Form>
           </ModalBody>
-          <div className="signup-title">
+          <div className="singup-title">
             <img src={logo} alt="logo" />
           </div>
         </div>

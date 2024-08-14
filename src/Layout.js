@@ -8,15 +8,15 @@ const Layout = () => {
   return (
     <div>
       <Row className="m-0 p-0">
-        <Col lg={3} md={4} >
+        <Col lg={3} md={4}>
           <Sidebar />
         </Col>
-        <Col lg={5} md={8}>
-          <main>
+        <Col lg={6} md={8}>
+          <main className="main">
             <Outlet />
           </main>
         </Col>
-        <Col lg={4} className="d-lg-flex d-none">
+        <Col lg={3} className="d-lg-flex d-none">
           <RightSidebar />
         </Col>
       </Row>

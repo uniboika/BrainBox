@@ -6,7 +6,7 @@ import {
 import { Link } from "react-router-dom";
 import { useAuth } from "../../AuthContext";
 import { TbLogout2 } from "react-icons/tb";
-import logo from "../../assest/logo.png";
+import logo from "../../assets/logo.png";
 import { FiHome, FiSearch } from "react-icons/fi";
 import { MdOutlineAddBox, MdOutlineMailOutline } from "react-icons/md";
 import { HiOutlineUser } from "react-icons/hi";
