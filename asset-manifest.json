@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/uniboika/BrainBox.git/static/css/main.a8ec708f.css",
-    "main.js": "/uniboika/BrainBox.git/static/js/main.39aa7c25.js",
+    "main.js": "/uniboika/BrainBox.git/static/js/main.668a2275.js",
     "static/js/453.65647362.chunk.js": "/uniboika/BrainBox.git/static/js/453.65647362.chunk.js",
     "static/media/abbaboss.JPG": "/uniboika/BrainBox.git/static/media/abbaboss.e74d14e8e70ca46aca2b.JPG",
     "static/media/nagudu.JPG": "/uniboika/BrainBox.git/static/media/nagudu.3bd8ae2ad8cc1e3bbe8b.JPG",
@@ -25,11 +25,11 @@
     "static/media/slick.woff": "/uniboika/BrainBox.git/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/uniboika/BrainBox.git/index.html",
     "main.a8ec708f.css.map": "/uniboika/BrainBox.git/static/css/main.a8ec708f.css.map",
-    "main.39aa7c25.js.map": "/uniboika/BrainBox.git/static/js/main.39aa7c25.js.map",
+    "main.668a2275.js.map": "/uniboika/BrainBox.git/static/js/main.668a2275.js.map",
     "453.65647362.chunk.js.map": "/uniboika/BrainBox.git/static/js/453.65647362.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8ec708f.css",
-    "static/js/main.39aa7c25.js"
+    "static/js/main.668a2275.js"
   ]
 }
