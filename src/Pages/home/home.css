@@ -2,17 +2,25 @@
   border-bottom: 1px solid #bbb9b9;
   /* height: 70px; */
   /* padding: 15px; */
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1000;
   overflow: hidden;
-  width: calc(100% + 11px);
+  width: 53.5%;
+  /* margin-bottom: 70px; */
   /* overflow: hidden; */
+}
+.isSticky {
+  background-color: #fffffff6;
+  border-bottom: 1px solid #dedede;
+  transition: .2s ease-in-out;
+  /* box-shadow: 1px 1px 10px 1px #dedede; */
 }
 .main {
   border-right: 1px solid #bbb9b9;
   margin-left: calc(100% - 110% + 19px);
   overflow: hidden;
+  margin-top: 70px;
   /* padding: 10px; */
 }
 
@@ -66,4 +74,21 @@
   overflow: hidden;
   text-overflow: ellipsis;
   text-align: center;
+}
+.yourmind {
+  /* border-top: 1px solid #bbb9b9; */
+  border-bottom: 1px solid #bbb9b9;
+}
+.hr {
+  width: 100%;
+  height: 1px;
+  background-color: #bbb9b9;
+}
+.yourmind-bottom .icons {
+  color: var(--red-color);
+  font-size: 20px;
+  margin-left: 60px;
+}
+.yourmind-bottom .icons svg {
+  margin-right: 20px;
 }

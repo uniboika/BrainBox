@@ -11,12 +11,12 @@ const Layout = () => {
         <Col lg={3} md={4}>
           <Sidebar />
         </Col>
-        <Col lg={6} md={8}>
+        <Col lg={6} md={8} className="pe-0">
           <main className="main">
             <Outlet />
           </main>
         </Col>
-        <Col lg={3} className="d-lg-flex d-none">
+        <Col lg={3} className="d-lg-block p-0 d-none" style={{maxWidth: "100%"}}>
           <RightSidebar />
         </Col>
       </Row>

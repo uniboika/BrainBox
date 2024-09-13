@@ -77,6 +77,11 @@
   /* font-weight: 600; */
   letter-spacing: 1.1px;
 }
+.ads:hover {
+  background-color: #dfdfdf63;
+  border-radius: 5px;
+  /* border-bottom: 50px; */
+}
 
 ul {
   margin: 0;
@@ -149,5 +154,21 @@ body.dark .switch::before {
 }
 body.dark .home .text {
   color: var(--text-color);
+}
+.footer {
+  display: flex;
+  /* width: 50%; */
+}
+.footer li {
+  margin-inline: 13px;
+  font-size: 14px;
+}
+.footer li:first-child {
+  margin-left: 0;
+  list-style: none;
+}
+.right-sidebar {
+  position: sticky;
+  overflow: hidden;
 }
 /* ===========appnavigation================ */
