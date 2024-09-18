@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BrainBox/static/css/main.cfc389ec.css",
-    "main.js": "/BrainBox/static/js/main.21fcb303.js",
+    "main.css": "/BrainBox/static/css/main.b703345b.css",
+    "main.js": "/BrainBox/static/js/main.3eece61d.js",
     "static/js/453.3da8622f.chunk.js": "/BrainBox/static/js/453.3da8622f.chunk.js",
     "static/media/abbaboss.JPG": "/BrainBox/static/media/abbaboss.e74d14e8e70ca46aca2b.JPG",
     "static/media/nagudu.JPG": "/BrainBox/static/media/nagudu.3bd8ae2ad8cc1e3bbe8b.JPG",
@@ -24,12 +24,12 @@
     "static/media/slick.ttf": "/BrainBox/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/BrainBox/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/BrainBox/index.html",
-    "main.cfc389ec.css.map": "/BrainBox/static/css/main.cfc389ec.css.map",
-    "main.21fcb303.js.map": "/BrainBox/static/js/main.21fcb303.js.map",
+    "main.b703345b.css.map": "/BrainBox/static/css/main.b703345b.css.map",
+    "main.3eece61d.js.map": "/BrainBox/static/js/main.3eece61d.js.map",
     "453.3da8622f.chunk.js.map": "/BrainBox/static/js/453.3da8622f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfc389ec.css",
-    "static/js/main.21fcb303.js"
+    "static/css/main.b703345b.css",
+    "static/js/main.3eece61d.js"
   ]
 }
